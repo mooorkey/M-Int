@@ -77,7 +77,7 @@ with cols[1]:
 
 with cols[2]:
     st.markdown("#### Total Worker Per Department")
-    st.bar_chart(total_worker_per_department, x="DEPARTMENT", y="TOTAL", stack=False, color="TITLE", horizontal=True)
+    st.bar_chart(total_worker_per_department, x="DEPARTMENT", y="TOTAL", stack=True, color="TITLE", horizontal=True)
 
     
 
